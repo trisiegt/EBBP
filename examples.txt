@@ -1,0 +1,6 @@
+﻿Example "searchengine" values:
+Google: searchengine = https://www.google.com/search?q={query}
+Bing: searchengine = https://www.bing.com/search?q={query}
+Ecosia: searchengine = https://www.ecosia.com/search?q={query}
+DuckDuckGo: searchengine = https://www.duckduckgo.com/?q={query}
+Yandex / Яндекс: searchengine = https://yandex.com/search/?text={query}

@@ -1,0 +1,15 @@
+﻿// Comments start with //
+
+// Start page URL, starts with a web protocol (https://, steam://, http://, etc.)
+startpage = https://google.com
+
+
+// Dark mode toggle
+darkmode = true
+// true = dark, false = light theme.
+
+// Search engine, different to start page URL.
+// Example: https://www.example.com/q={query}
+// If there isn't a "searchengine" URL listed or an error occurs, defaults to DuckDuckGo (hardcoded).
+// Examples listed in "examples.txt"
+searchengine = https://www.google.com/search?q={query}
