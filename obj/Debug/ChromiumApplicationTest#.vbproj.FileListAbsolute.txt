@@ -1,0 +1,5 @@
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.vbproj.AssemblyReference.cache
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest_.Form1.resources
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest_.Resources.resources
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.vbproj.GenerateResource.cache
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.vbproj.CoreCompileInputs.cache
