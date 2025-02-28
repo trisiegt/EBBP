@@ -13,6 +13,7 @@ It is tab-less as well, solely because Google Gemini (swear word)ed it up and I 
 ![{7AF5EF41-7DB7-4034-9C59-815A3EA5BB2C}](https://github.com/user-attachments/assets/a2e37517-473a-410a-b964-4cae548eec3a)
 
 That's really it.
+Made with ♥ in South East England. the busses are slow
 
 ## Legal
 Now, I ain't smart. But I slightly modified the MIT licence. What is it called? The MIT-**NC** licence. NC is standing for Non-Commercial, not North Carolina. Just saying.
