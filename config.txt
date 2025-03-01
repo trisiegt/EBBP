@@ -5,7 +5,7 @@ startpage = startpage.html
 
 
 // Dark mode toggle
-darkmode = false
+darkmode = true
 // true = dark, false = light theme.
 
 // Search engine, different to start page URL.

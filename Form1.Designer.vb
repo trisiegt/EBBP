@@ -130,6 +130,7 @@ Partial Class Form1
         '
         'btnHelp
         '
+        Me.btnHelp.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnHelp.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHelp.Location = New System.Drawing.Point(704, 6)
         Me.btnHelp.Name = "btnHelp"
