@@ -21,3 +21,7 @@ C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\
 C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.exe
 C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.xml
 C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.pdb
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\bin\Debug\ChromiumApplicationTest#.exe.manifest
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\bin\Debug\ChromiumApplicationTest#.application
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.exe.manifest
+C:\Users\Tristan\source\repos\ChromiumApplicationTest#\ChromiumApplicationTest#\obj\Debug\ChromiumApplicationTest#.application

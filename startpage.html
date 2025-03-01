@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Start Page</title>
+    <link rel="stylesheet" href="startpage.css">
+</head>
+<body>
+    <div class="top-right">
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+        <p>Dark Mode</p>
+    </div>
+    <div class="container">
+        <div class="welcome-image">
+            <img src="EBBP_LightThemeBackground.png" alt="Welcome (Light)" id="welcomeImage">
+        </div>
+        <div class="search-box">
+            <select id="searchEngine">
+                <option value="google">Google</option>
+                <option value="bing">Bing</option>
+                <option value="ecosia">Ecosia</option>
+                <option value="duckduckgo">DuckDuckGo</option>
+                <option value="yandex">Yandex</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton">Go</button>
+        </div>
+    </div>
+    <script src="startpage.js"></script>
+</body>
+</html>

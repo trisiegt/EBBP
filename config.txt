@@ -1,11 +1,11 @@
 ﻿// Comments start with //
 
-// Start page URL, starts with a web protocol (https://, steam://, http://, etc.)
-startpage = https://google.com
+// Start page URL, starts with a web protocol (https://, steam://, http://, etc.) or a file (example.html)
+startpage = startpage.html
 
 
 // Dark mode toggle
-darkmode = true
+darkmode = false
 // true = dark, false = light theme.
 
 // Search engine, different to start page URL.

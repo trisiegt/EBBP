@@ -8,8 +8,9 @@ Public Class Form1
 
     Private hintColor As Color = Color.Gray
     Private normalColor As Color = Color.Black
-    Dim URLWarning
-    Private darkModeBackgroundColor As Color = Color.FromArgb(32, 32, 32) ' Dark background color
+    Dim URLWarning As String
+    Dim helpme
+    Private darkModeBackgroundColor As Color = ColorTranslator.FromHtml("#333333")
     Private darkModeTextColor As Color = Color.LightGray ' Light text color
 
 
@@ -28,6 +29,10 @@ Public Class Form1
         If IsDarkModeEnabled() Then
             ApplyDarkMode()
         End If
+    End Sub
+    Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
+        ' Display your help content here
+        helpme = MsgBox(Prompt:="To modify the browser's main theme setting, change the 'darkmode' flag in the config.txt file.", 0, "Help")
     End Sub
 
     Private Function IsDarkModeEnabled() As Boolean
@@ -113,7 +118,12 @@ Public Class Form1
                     If Not trimmedLine.StartsWith("//") AndAlso trimmedLine.StartsWith("startpage =") Then
                         Dim urlPart As String = trimmedLine.Substring("startpage =".Length).Trim()
                         If Not String.IsNullOrEmpty(urlPart) Then
-                            Return urlPart
+                            If urlPart.StartsWith("http://") Or urlPart.StartsWith("https://") Then
+                                Return urlPart ' If it's a web URL, return as is
+                            Else
+                                ' If it's a local file path, convert to file:// URI
+                                Return New Uri(Path.Combine(Application.StartupPath, urlPart)).ToString()
+                            End If
                         End If
                     End If
                 Next
@@ -161,4 +171,9 @@ Public Class Form1
             Return "https://duckduckgo.com/?q={query}" ' Default to DuckDuckGo
         End Try
     End Function
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        Dim startPagePath As String = Path.Combine(Application.StartupPath, "startpage.html")
+        WebView21.CoreWebView2.Navigate(New Uri(startPagePath).ToString())
+    End Sub
 End Class

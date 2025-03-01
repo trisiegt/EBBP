@@ -1,0 +1,165 @@
+/* import the font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+body {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    position: relative; /* Add position relative to body */
+}
+
+.container {
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    margin-top: 20px;
+}
+
+    .search-box select,
+    .search-box input,
+    .search-box button {
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    /* Basic dropdown styling */
+    .search-box select {
+        font-family: 'Lexend', sans-serif; /* Apply Lexend font */
+        appearance: none; /* Try to remove default appearance */
+        -webkit-appearance: none; /* For Safari and Chrome */
+        -moz-appearance: none; /* For Firefox */
+        background-color: #fff; /* Example background color */
+        color: #333; /* Example text color */
+    }
+
+        /* Optional: Add a custom dropdown arrow */
+        .search-box select::-ms-expand {
+            display: none; /* Hide the default arrow in IE11 */
+        }
+
+    .search-box select {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23333'%3E%3Cpath d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z'/%3E%3C/svg%3E"); /* Example dropdown arrow SVG */
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        padding-right: 40px; /* Adjust padding to accommodate the arrow */
+    }
+
+    .search-box button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        .search-box button:hover {
+            background-color: #0056b3;
+        }
+
+body.dark-mode {
+    background-color: #333;
+    color: #eee;
+}
+
+    body.dark-mode .container {
+        background-color: #333;
+    }
+
+    body.dark-mode h1 {
+        color: #eee;
+    }
+
+    /* Dark mode styling for the dropdown */
+    body.dark-mode .search-box select {
+        background-color: #333;
+        color: #eee;
+        border-color: #555;
+    }
+
+    body.dark-mode .search-box select {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23eee'%3E%3Cpath d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z'/%3E%3C/svg%3E"); /* Example dropdown arrow SVG for dark mode */
+    }
+
+/* Add styles for top-right toggle */
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+    .top-right p {
+        margin-top: 5px; /* Adjust spacing as needed */
+        font-size: 14px; /* Adjust font size as needed */
+        color: #555; /* Adjust color as needed */
+    }
+
+body.dark-mode .top-right p {
+    color: #eee; /* Adjust color for dark mode */
+}
+
+/* Toggle Switch Styles */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px; /* Reduced width by half */
+    height: 17px; /* Reduced height by half */
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 13px; /* Reduced height by half */
+        width: 13px; /* Reduced width by half */
+        left: 4px;
+        bottom: 2px; /* Adjusted bottom to center */
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(13px); /* Adjusted translateX for smaller size */
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }

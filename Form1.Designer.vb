@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.tb_url = New System.Windows.Forms.TextBox()
         Me.tb_search = New System.Windows.Forms.TextBox()
         Me.btn_Search = New System.Windows.Forms.Button()
@@ -30,6 +31,8 @@ Partial Class Form1
         Me.btnForwards = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
         Me.WebView21 = New Microsoft.Web.WebView2.WinForms.WebView2()
+        Me.btnHome = New System.Windows.Forms.Button()
+        Me.btnHelp = New System.Windows.Forms.Button()
         CType(Me.WebView21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -115,11 +118,33 @@ Partial Class Form1
         Me.WebView21.TabIndex = 8
         Me.WebView21.ZoomFactor = 1.0R
         '
+        'btnHome
+        '
+        Me.btnHome.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHome.Location = New System.Drawing.Point(12, 4)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.Size = New System.Drawing.Size(23, 30)
+        Me.btnHome.TabIndex = 9
+        Me.btnHome.Text = "⌂"
+        Me.btnHome.UseVisualStyleBackColor = True
+        '
+        'btnHelp
+        '
+        Me.btnHelp.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHelp.Location = New System.Drawing.Point(704, 6)
+        Me.btnHelp.Name = "btnHelp"
+        Me.btnHelp.Size = New System.Drawing.Size(40, 29)
+        Me.btnHelp.TabIndex = 10
+        Me.btnHelp.Text = "?"
+        Me.btnHelp.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(949, 533)
+        Me.Controls.Add(Me.btnHelp)
+        Me.Controls.Add(Me.btnHome)
         Me.Controls.Add(Me.WebView21)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnForwards)
@@ -128,8 +153,9 @@ Partial Class Form1
         Me.Controls.Add(Me.btn_Search)
         Me.Controls.Add(Me.tb_search)
         Me.Controls.Add(Me.tb_url)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Edge-Based Browser Project"
         CType(Me.WebView21, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -143,4 +169,6 @@ Partial Class Form1
     Friend WithEvents btnForwards As Button
     Friend WithEvents btnBack As Button
     Friend WithEvents WebView21 As Microsoft.Web.WebView2.WinForms.WebView2
+    Friend WithEvents btnHome As Button
+    Friend WithEvents btnHelp As Button
 End Class
