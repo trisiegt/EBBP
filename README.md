@@ -15,6 +15,8 @@ It is tab-less as well, solely because Google Gemini (swear word)ed it up and I 
 
 #### Help dialogue
 ![{382C7DA0-2B4C-425C-AA0E-15D5685AE495}](https://github.com/user-attachments/assets/c174c068-177d-43d7-852d-7ae13e5b9a41)
+![image](https://github.com/user-attachments/assets/b20407d1-4f7d-4b11-b8b2-f4d010b19153)
+
 
 
 
