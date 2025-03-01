@@ -7,13 +7,21 @@ It is tab-less as well, solely because Google Gemini (swear word)ed it up and I 
 
 ## Screenshots
 #### Dark theme
-![{4798A23D-170E-48FE-82C5-F019A5CAA21C}](https://github.com/user-attachments/assets/2631c097-ab67-4735-814b-5aeaa722d266)
+![{61BA6A26-BCCD-40D0-8CEA-46F2D6CD1156}](https://github.com/user-attachments/assets/b60d5798-250e-4695-8bc7-995f87845d1c)
+
 
 #### Light theme
-![{7AF5EF41-7DB7-4034-9C59-815A3EA5BB2C}](https://github.com/user-attachments/assets/a2e37517-473a-410a-b964-4cae548eec3a)
+![{1DEEA0DF-BD2A-4025-8609-0C2E1CD1AE59}](https://github.com/user-attachments/assets/a730f598-ea7c-4f51-bf0a-93ea2d3f26cc)
+
+#### Help dialogue
+![{382C7DA0-2B4C-425C-AA0E-15D5685AE495}](https://github.com/user-attachments/assets/c174c068-177d-43d7-852d-7ae13e5b9a41)
+
+![{41AAE640-48D8-4FF5-A06E-D4BFBD1DDEDC}](https://github.com/user-attachments/assets/5b42f230-86fe-42d4-b687-0b827f693bf1)
+
+
 
 That's really it.
-Made with ♥ in South East England. the busses are slow
+Made with ♥ in England. the busses are slow
 
 ## Legal
 Now, I ain't smart. But I slightly modified the MIT licence. What is it called? The MIT-**NC** licence. NC is standing for Non-Commercial, not North Carolina. Just saying.
